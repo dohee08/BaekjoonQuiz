@@ -18,7 +18,7 @@ public class quiz_1110 {
 			int num2 = num%10; //1ÀÇ ÀÚ¸®
 			int sum = num1+num2;
 			
-			num = (num2*10)+(sum%10);
+			result = (num2*10)+(sum%10);
 			count++;
 			
 			if(result == num) {
