@@ -22,7 +22,7 @@ public class Quiz_1546 {
 			}
 		}
 		
-		//위치 빼고 새로 계산
+		//새로 계산
 		double[] temp = new double[score.length];
 		for(int j=0; j<score.length; j++) {
 			temp[j] = score[j]/max*100;
